@@ -1,0 +1,49 @@
+
+CS50x Homepage - Specification
+
+Project Name: Cosmos - Explore the Universe
+
+1. HTML
+
+The website contains four pages:
+- index.html: The homepage introducing the Cosmos website.
+- astronomy.html: Information about stars, nebulae, planets, and galaxies.
+- missions.html: Information about Apollo 11, the James Webb Space Telescope, and Mars exploration.
+- about.html: Explains the purpose of the project and its connection to science and web development.
+
+HTML tags used include:
+html, head, meta, title, link, script, body, nav, div, a, button, span, header, main, section, p, h1, h2, h3, article, img, and footer.
+
+2. CSS
+
+The styles.css file defines the visual design of the website.
+
+CSS selectors used include:
+body, .navbar, .navbar-brand, .nav-link, .hero, .hero-content, .eyebrow, h1, .btn-cosmic, .cosmic-card, .card-body-custom, .fact-section, #fact, .site-footer, and a media query.
+
+CSS properties used include:
+background, color, font-family, font-size, font-weight, margin, padding, border, border-radius, display, align-items, transition, transform, width, height, and object-fit.
+
+The design uses a dark space-inspired color palette, responsive layouts, cards, and hover effects.
+
+3. JavaScript
+
+The script.js file contains an array of astronomy facts and uses JavaScript event listeners to display a randomly selected fact when the user clicks the space-fact button on the homepage.
+
+4. Bootstrap
+
+Bootstrap is used for responsive page layouts, the navigation bar, grid system, buttons, spacing utilities, and responsive cards.
+
+The Bootstrap navigation menu collapses on smaller screens.
+
+5. External Resources
+
+The website uses images hosted by Unsplash and the Bootstrap framework loaded through a CDN.
+
+6. Responsive Design
+
+The website uses the viewport meta tag, Bootstrap's responsive grid, and a CSS media query to improve the layout on smaller screens.
+
+7. Navigation
+
+All four HTML pages share a navigation menu that allows visitors to move between the homepage, astronomy, missions, and about pages.

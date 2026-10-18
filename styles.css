@@ -1,0 +1,174 @@
+
+body {
+    margin: 0;
+    background: #080b18;
+    color: #f4f5ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+.navbar {
+    background: rgba(8, 11, 24, 0.97);
+    border-bottom: 1px solid #242b46;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.nav-link {
+    margin-left: 12px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #a9a2ff !important;
+}
+
+.hero {
+    min-height: 580px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(90deg, rgba(8, 11, 24, 0.96), rgba(8, 11, 24, 0.3)),
+        url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=2000&q=85")
+        center / cover no-repeat;
+}
+
+.hero-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.hero h1 span {
+    color: #a9a2ff;
+}
+
+.hero-text {
+    max-width: 560px;
+    color: #c4c8dc;
+    font-size: 1.1rem;
+    margin: 24px 0 32px;
+}
+
+.eyebrow {
+    color: #aaa4ff;
+    letter-spacing: 3px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.btn-cosmic {
+    background: #8278ff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: 1px solid #a9a2ff;
+    transition: 0.25s;
+}
+
+.btn-cosmic:hover {
+    background: #a9a2ff;
+    color: #080b18;
+    transform: translateY(-2px);
+}
+
+.intro-section {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: bold;
+}
+
+.muted,
+.cosmic-card p:not(.eyebrow) {
+    color: #b7bdd3;
+}
+
+.cosmic-card {
+    background: #11172a;
+    border: 1px solid #262e4b;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.25s, border-color 0.25s;
+}
+
+.cosmic-card:hover {
+    transform: translateY(-6px);
+    border-color: #8278ff;
+}
+
+.cosmic-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body-custom {
+    padding: 24px;
+}
+
+.cosmic-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cosmic-card a {
+    color: #aaa4ff;
+    text-decoration: none;
+}
+
+.cosmic-card a:hover {
+    color: white;
+}
+
+.fact-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #11172a, #211c43);
+    border: 1px solid #302957;
+    border-radius: 20px;
+}
+
+#fact {
+    color: #d0d4e8;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.site-footer {
+    margin-top: 70px;
+    padding: 30px 15px;
+    border-top: 1px solid #242b46;
+    color: #aeb4cc;
+}
+
+.site-footer p:first-child {
+    color: #aaa4ff;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        min-height: 480px;
+    }
+
+    .hero-content {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .cosmic-card img {
+        height: 200px;
+    }
+}
